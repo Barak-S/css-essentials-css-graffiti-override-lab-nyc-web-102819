@@ -4,13 +4,13 @@
 }
 
 /* Tag 2 -> 200 */
-body #wall #tag-2 { /* 201 */
+#wall #tag-2 { /* 201 */
   display: none;
 }
 
 /* Tag 3 -> 211 */
 
-div#wall div#tag-3.slick, .wicked{ /*222*/
+#wall #tag-3.slick, .wicked{ /*222*/
   display: none;
 }
 
@@ -22,13 +22,13 @@ div#wall div#tag-3.slick, .wicked{ /*222*/
 
 /* Tag 5 -> 221 */
 
-div#wall div.parent div#tag-5.slick { /*223*/
+#wall .parent #tag-5.slick { 
   display: none;
 }
 
 /* Tag 6 -> 224 */
 
-body div#wall div.parent div:last-child div#tag-6 { /*225*/
+#wall .parent :last-child #tag-6 { /*225*/
   display: none;
 }
 
